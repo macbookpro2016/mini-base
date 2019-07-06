@@ -22,6 +22,8 @@
         <dubbo.version>2.6.5</dubbo.version>
         <zookeeper.version>3.4.13</zookeeper.version>
         <dubbo-spring-boot.version>0.2.0</dubbo-spring-boot.version>
+        <druid.version>1.1.16</druid.version>
+
         <mini-user-api.version>${mini-base.version}</mini-user-api.version>
         <mini-user-parent.version>${mini-base.version}</mini-user-parent.version>
     </properties>
@@ -107,6 +109,12 @@
                 <groupId>com.mini</groupId>
                 <artifactId>mini-user-parent</artifactId>
                 <version>${mini-user-parent.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid</artifactId>
+                <version>${druid.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
