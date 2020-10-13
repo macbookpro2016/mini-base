@@ -23,7 +23,7 @@
         <zookeeper.version>3.4.13</zookeeper.version>
         <dubbo-spring-boot.version>0.2.0</dubbo-spring-boot.version>
         <druid.version>1.1.16</druid.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
 
         <mini-user-api.version>${mini-base.version}</mini-user-api.version>
         <mini-user-parent.version>${mini-base.version}</mini-user-parent.version>
